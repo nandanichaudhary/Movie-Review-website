@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+
+	<title>Movie Review | Login</title>
+
+	<!-- Loading third party fonts -->
+	<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+	<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+	<!-- Loading main css file -->
+	<link rel="stylesheet" href="style.css">
+
+	
+
+</head>
+
+
+<body>
+
+
+	<div id="site-content">
+		<header class="site-header">
+			<div class="container">
+				<a href="index.html" id="branding">
+					<img src="images/logo.png" alt="" class="logo">
+					<div class="logo-copy">
+						<h1 class="site-title">GRVN</h1>
+						<small class="site-description">Movies Reviews Especially For You </small>
+					</div>
+				</a> <!-- #branding -->
+
+				<div class="main-navigation">
+					<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+					<ul class="menu">
+						<li class="menu-item"><a href="index.html">Home</a></li>
+						<li class="menu-item"><a href="about.html">About</a></li>
+						<li class="menu-item"><a href="review.html">Movie reviews</a></li>
+						<li class="menu-item"><a href="joinus.html">Join us</a></li>
+						<li class="menu-item current-menu-item"><a href="contact.html">Login/Signup</a></li>
+					</ul> <!-- .menu -->
+
+					<form action="#" class="search-form">
+						<input type="text" placeholder="Search...">
+						<button><i class="fa fa-search"></i></button>
+					</form>
+				</div> <!-- .main-navigation -->
+
+				<div class="mobile-navigation"></div>
+			</div>
+		</header>
+		<main class="main-content">
+			<div class="container">
+				<div class="page">
+					<div class="breadcrumbs">
+						<a href="index.html">Home</a>
+						<span>Login/Signup</span>
+					</div>
+
+					<div class="content">
+						<div class="row">
+							<div class="col-md-5">
+								<h2>SIGNUP</h2>
+
+								<div class="contact-form">
+									<form name='signup' action="main.php" method="post">
+										<input type="text" class="name" name="name" placeholder="name..." required/>
+										<input type="password" class="name" name="password" placeholder="password..." required />
+										<input type="text" class="email" name="email" placeholder="email..." required/>
+										<textarea class="message" name="address" placeholder="address..."
+											required></textarea>
+										<input type="submit" name="submit" value="SUBMIT" />
+									</form>
+
+								</div>
+
+							</div>
+
+							<div class="col-md-5 col-md-offset-1">
+								<h2>LOGIN</h2>
+
+								<div class="contact-form">
+									<form name='login' action="main2.php" method="post">
+											<input type="text" class="name" name="name" placeholder="name..." required/>
+										<input type="text" class="email" name="email" placeholder="email..." required>
+										<input type="password" class="name" name="password" placeholder="password..." required>
+										<input type="submit" name="submit" value="SUBMIT"></form>
+								</div>
+
+                                                              <a href="http://localhost/project2/ratings/index.php">Click here to give Rating to a movie</a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> <!-- .container -->
+		</main>
+                
+
+		<footer class="site-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2">
+						<div class="widget">
+							<h3 class="widget-title">About Us</h3>
+							<p>GRVN is the world's most popular and authoritative source for movie, TV and celebrity content.</p>
+						</div>
+					</div>
+					
+					
+					<div class="col-md-2">
+						<div class="widget">
+							<h3 class="widget-title">Social Media</h3>
+							<ul class="no-bullet">
+								<li>Facebook</li>
+								<li>Twitter</li>
+								<li>Google+</li>
+								<li>Pinterest</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="widget">
+							<h3 class="widget-title">Newsletter</h3>
+							<form action="#" class="subscribe-form">
+								<input type="text" placeholder="Email Address">
+							</form>
+						</div>
+					</div>
+				</div> <!-- .row -->
+
+				<div class="colophon">Copyright 2019 GRVN, Designed by GRVN. All rights reserved</div>
+			</div> <!-- .container -->
+
+		</footer>
+	</div>
+
+
+
+
+</body>
+
+</html>
